@@ -9,46 +9,50 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
 </head> 
 <body>
+    
     <header>
-        <a href="#" class="logo"><img src="./assets/logo.png"> </a>
+        <a href="#" class="logo"><img src="assets/logo.png"></a>
         <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">TV Shows</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Latest</a></li>
-            <li><a href="#">My list</a></li>
+            <li><a href="#">My List</a></li>
         </ul>
         <div class="search">
             <input type="text" placeholder="Search">
             <i class="fas fa-search"></i>
         </div>
     </header>
+
     <div class="banner">
-        <img src="./assets/bg.jpg" class="bg">
+        <img src="assets/bg.jpg" class="bg">
 
         <div class="content">
-            <img src="./assets/name.png" class="movieTitle">
+            <img src="assets/name.png" class="movieTitle">
             <h4>
                 <span>2020</span>
                 <span><i>12+</i></span>
                 <span>1h 55min</span>
-                <span>action</span>
+                <span>Action</span>
             </h4>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima deserunt, aspernatur adipisci obcaecati vitae veniam quis officia beatae est aliquam dolorum earum magnam ducimus perferendis, illo nihil nam nostrum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsam maiores illo iure laboriosam quaerat vitae ad, debitis hic corporis sequi optio facere nostrum obcaecati earum, perferendis impedit. Quod, aspernatur.
             </p>
-            <div class="bottons">
-                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
-                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
-.            </div>
-        </div>
-        <a class="play" onclick="togglevideo()"><img src="./assets/play.png">What Trailer</a>
-    </div>
-    <div class="trailer">
-        <video src="./assets/video.mp4" controls="true"></video>
-        <img src="./assets/close.png" class="close" onclick="toggleVideo()">
-    </div>
-</body>    
-     <script src="./src/script.js"></script>
 
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="assets/play.png">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/video.mp4" controls="true"></video>
+        <img src="assets/close.png" class="close" onclick="toggleVideo()">
+    </div>
+</body>
+    <script src="src/script.js"></script>
+    
 </html>
